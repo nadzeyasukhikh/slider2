@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    display: block;
+}
+.post_div .btn_div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.post_div .btn_div button{
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+.post_div .btn_div button:hover{
+    box-shadow: 2px 2px 5px black;
+    
+}
+.post_div .btn_div button:active {
+    transform: scale(0.9);
+}
+.post_div .btn_div button.active{
+    border-bottom: 4px solid black;
+}
+.post_div {
+    display: flex;
+    width: 600px;
+    margin: 40px auto;
+    flex-direction: column;
+}
+.post_div .text_content{
+    height: 400px;
+    overflow-y: scroll;
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.img_container{
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_container .icons_content {
+    width: 400px;
+}
+.img_container .icons_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img_container .icons_div img {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    border-radius: 5px;
+}
+.img_container .icons_div img:active{
+    transform: scale(0.9);
+}
+.img_container .icons_div img:hover{
+    box-shadow: 2px 2px 5px;
+}
