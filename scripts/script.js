@@ -24,6 +24,8 @@ const loremTexts = [
   "6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur enim in reprehenderit. Quae, itaque quaerat. Sapiente qui harum velit cum repellat nihil ratione cumque? Aperiam vel provident iusto pariatur.",
 ];
 
+text_content.innerHTML = loremTexts[0].repeat(10);
+
 buttonNames.forEach((name, index) => {
   const button = document.createElement("button");
   button.textContent = name;
@@ -50,7 +52,7 @@ const img_icons = [
     "https://gagaru.club/uploads/posts/2023-02/1676951773_gagaru-club-p-samie-krasivie-goroda-gretsii-vkontakte-13.jpg",
     "https://www.aviabileti.by/blog/wp-content/uploads/2014/09/athens.jpg",
     "https://www.grecomap.com/images/greek-articles/tourism/299_naberezhnye-grecii-1.jpg",
-    "https://static.wixstatic.com/media/a5e93b_dfcf0412701749cc8246ef400e0ad95c~mv2.jpg/v1/fill/w_640,h_416,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/a5e93b_dfcf0412701749cc8246ef400e0ad95c~mv2.jpg"
+    "https://w.forfun.com/fetch/47/47267b9a74af697e30f967a59e4e4b0f.jpeg"
 ]
 
 const img_container = document.createElement("div");
